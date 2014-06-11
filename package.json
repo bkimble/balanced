@@ -2,6 +2,7 @@
   "name": "Balanced",
   "description": "Balanced",
   "version": "0.0.1",
+  "repository": {},
   "dependencies": {
     "express": "3.x",
     "jqtpl": "2.x",
@@ -12,7 +13,8 @@
     "chai": "*",
     "chai-http": "*",
     "q": "^1.0.1",
-    "async": "^0.8.0"
+    "async": "^0.8.0",
+    "hamljs": "*"
   },
   "scripts": {
     "test": "mocha",
