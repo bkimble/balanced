@@ -3,6 +3,8 @@ express = require('express'),
 config = require('konfig')(),
 app = express();
 
+var balpay = require('balpay');
+
 require("./config/express")(app,express);
 var routes = require('./routes')(app);
 
